@@ -72,6 +72,10 @@ const Index = () => {
 
     return (
         <div className="iw_home">
+            
+
+            <CardAudio audioUrl={theAudio.url} />
+
             <button
                 className="iws_recordBtn"
                 type="button"
@@ -87,8 +91,6 @@ const Index = () => {
                     }
                 />
             </button>
-
-            <CardAudio audioUrl={theAudio.url} />
         </div>
     );
 };

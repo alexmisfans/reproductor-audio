@@ -5,20 +5,20 @@
     padding: 30px 0;
 
     .iws_recordBtn {
-        font-size: 40px;
+        color: #8346fe;
+        font-size: 20px;
         background: #ffffff;
         border: none;
         outline: none;
         width: 70px;
         height: 70px;
-        border-radius: 1000px;
+        border-radius: 999px;
         cursor: pointer;
         transition-property: transform;
-        transition-duration: 0.3s;
-        margin-bottom: 50px;
+        transition-duration: 0.350s;
+        margin-top: 32px;
 
         &:hover {
-            transform: scale(1.25);
+            transform: scale(1.05);
         }
-    }
-}
+    }}

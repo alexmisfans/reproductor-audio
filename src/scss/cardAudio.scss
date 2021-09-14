@@ -1,13 +1,14 @@
 .iw_cardAudio {
+    width: 100%;
     background: #8346fe;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 6px;
+    padding: 12px;
     color: #f9f9f9;
 
     .iws_userInfo {
         display: flex;
         align-items: center;
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 20px;
 
         img {
@@ -21,8 +22,11 @@
 
         h5 {
             span {
-                color: #ccc;
-                font-size: 14px;
+                color: #d1d1d1;
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: 0.25px;
+                margin-block-start: 20px;
             }
         }
     }
@@ -30,22 +34,22 @@
     .iws_reproductor {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
 
         .iws_playBtn {
-            font-size: 20px;
+            font-size: 14px;
             background: #f9f9f9;
             color: #8346fe;
-            height: 40px;
-            width: 40px;
+            height: 36px;
+            width: 36px;
             display: flex;
             justify-content: center;
             align-items: center;
-            border-radius: 1000px;
+            border-radius: 999px;
             cursor: pointer;
             transition-property: transform;
-            transition-duration: 0.3s;
-            margin-right: 10px;
+            transition-duration: 0.350s;
+            margin-right: 8px;
 
             &:hover {
                 transform: scale(1.05);
@@ -55,7 +59,7 @@
         .iws_soundWave {
             display: flex;
             align-items: center;
-            height: 50px;
+            height: 42px;
             position: relative;
 
             .iws_soundWaveProgress {
@@ -66,7 +70,7 @@
                 bottom: 0;
                 background: rgba(131, 70, 254, 0.5);
                 transition-property: width;
-                transition-duration: 0.01ms;
+                transition-duration: 0.05ms;
             }
 
             span {
@@ -79,6 +83,7 @@
     }
 
     .iws_time {
+        font-size: 12px;
         display: flex;
         color: #ccc;
     }
